@@ -11,10 +11,12 @@
 .studio{
     color: #c3c6c5;
     width: 300px;
+    height: 300px;
     margin:  80px 50px;
 }
 .studio p{
     font-size: 20px;
+    margin-bottom: 40px;
 }
 .studio h2{
     font-size: 70px;
@@ -22,10 +24,12 @@
     text-align: center;
     margin: 30px;
 }
-.hero a{
+.hero  a{
     padding: 10px 40px;
-    background-color:#051325;
+    background-color:#07101b;
     color: #c3c6c5;
+    margin: 30px 0;
+    border-radius: 3px;
 }
 /*--SECTION-2-------------------------------------------------------------*/
 .section-2{

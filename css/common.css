@@ -28,3 +28,17 @@ header li:hover{
     transition: 500ms all;
     text-decoration: none;
 }
+/*-----BUTTON---------------------------------------------------*/
+.button{
+    background-color: #192951;
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px 80px;
+    text-decoration: none;
+}
+/*-----FOOTER---------------------------------------------------*/
+.end-pg {
+    background-color: #192951;
+    color: #fff;
+    padding: 25px;
+}

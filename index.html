@@ -40,6 +40,7 @@
            <div class="studio">
             <h2>STUDIO</h2>
             <p>Julliart Studios is the perfect place to find your feet with over 20 unique styles of dance and 80 teachers to choose from. </p>
+            <a href="#">Inscribete</a>
             </div>
         </div>
         <div class="col-md-8"></div>
@@ -50,13 +51,14 @@
 <section class="section-2">
   <div class="container">
     <div class="row">
-       <h2>ESCUELA DE DANZA</h2>
         <div class="col-md-2"></div>
         <div class="col-md-8">
-           <div class="sectio-2 pg">
-            <p>Julliart cuenta con una amplia trayectoria yreputacion, brindando una formacion de excelencia a cientos de amantes de la danza</p>
-            <img src="img/decoration_1.png" alt="sect2-dec">
-            <a href="#">Oferta de Clases</a>
+           <div class="sect-pg">
+           <ul>
+            <li><p>Julliart cuenta con una amplia trayectoria yreputacion, brindando una formacion de excelencia a cientos de amantes de la danza.</p></li>
+            <li><img src="img/decoration_1.png" alt="sect2-dec"></li>
+            <li><a href="#" class="button">Oferta de Clases</a></li>
+            </ul>
            </div>
         </div>
         <div class="col-md-2"></div>  
@@ -67,15 +69,13 @@
 <section class="section-3">
   <div class="container">
     <div class="row">
-       <h2>Nuestros instructores</h2>
-        <div class="col-md-6">
-            <img src="img/instructor_4.jpg" alt="sect3-int1">
+        <div class="col-md-6"><img src="img/instructor_4.jpg" alt="sect3-img1" class="sect3-img1"></div>
+        <div class="col-md-6"><img src="img/profesor_9.jpg" alt="sect3-img2"></div>
         </div>
-        <div class="col-md-6">
-            <img src="img/profesor_9.jpg" alt="sect3-tea9">
+        <div class="row">
+            <label for="name">Nuestros instructores</label>
         </div>
-     </div>   
-  </div>  
+    </div>     
 </section>
 <!--SECTION-4---------------------------------------------------------->
 <section class="section-4">
@@ -83,7 +83,7 @@
     <div class="row">
        <div class="col-md-2"></div>
         <div class="col-md-8">
-           <h2>"La danza es un proema en el que cada movimiento es una palabra."</h2>
+           <h2><em>"La danza es un poema en el que cada movimiento es una palabra."</em></h2>
         </div>
      </div>   
   </div>  
@@ -92,18 +92,19 @@
 <section class="section-5">
   <div class="container">
     <div class="row">
-       <div class="col-md-4">
+       <div class="col-md-6">
+          <div class="contact">
            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, ea aperiam nihil fugiat obcaecati ex at nesciunt suscipit laboriosam labore earum, vel, enim pariatur veritatis sed omnis, velit sapiente dolorum!</p>
-           <ul>
-               <li>The Juiilliad School</li>
-               <li>60 Lincoln Center Plaza</li>
-               <li>New York, NY 10023</li>
-               <li>212 799-5000</li>
-           </ul>
-       </div>
-        <div class="col-md-8">
-           
-        </div>
+               <ul>
+                   <li><h4>Visitanos</h4></li>
+                   <li>The Juiilliad School</li>
+                   <li>60 Lincoln Center Plaza</li>
+                   <li>New York, NY 10023</li>
+                   <li>212 799-5000</li>
+               </ul>
+               </div>
+           </div>
+        <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.4664374888425!2d-73.98501728491004!3d40.77375867932516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2585ff9df2f6d%3A0xf876ccebba645bff!2sEscuela+Juilliard!5e0!3m2!1ses-419!2spe!4v1479466226428" width="450" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></div>
      </div>   
   </div>  
 </section>
@@ -111,49 +112,33 @@
 <section class="section-6">
   <div class="container">
     <div class="row">
-       <div class="col-md-4">
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, ea aperiam nihil fugiat obcaecati ex at nesciunt suscipit laboriosam labore earum, vel, enim pariatur veritatis sed omnis, velit sapiente dolorum!</p>
-           <ul>
-               <li>The Juiilliad School</li>
-               <li>60 Lincoln Center Plaza</li>
-               <li>New York, NY 10023</li>
-               <li>212 799-5000</li>
-           </ul>
-       </div>
-        <div class="col-md-8">
-           
-        </div>
-     </div>   
-  </div>  
-</section>
-<!--SECTION-7---------------------------------------------------------->
-<section class="section-7">
-  <div class="container">
-    <div class="row">
        <div class="col-md-6">
           <h3>Contactanos</h3>
+           
             <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-	<div class="row">
-		<label for="name">Tu nombre:</label><br />
-		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-	</div>
-	<div class="row">
-		<label for="email">Tu email:</label><br />
-		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-	</div>
-	<div class="row">
-		<label for="message">Tu mensaje:</label><br />
-		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-	</div>
-	<input id="submit_button" type="submit" value="Send email" />
-</form>						
+	            <div class="row">
+                    <label for="name">Tu nombre:</label><br />
+                    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+                </div>
+                <div class="row">
+                    <label for="email">Tu email:</label><br />
+                    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+                </div>
+                <div class="row">
+                    <label for="message">Tu mensaje:</label><br />
+                    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+                </div>
+            <input id="submit_button" type="submit" value="ENVIAR" />
+        </form>						
  
        </div>
-       <div class="col-md-6"></div>
-     </div>   
-  </div>  
+       <div class="col-md-6"><div class="sect6-img"></div></div>
+       </div>
+     </div>     
 </section>
 <!--FOOTER------------------------------------------------------------->
+<footer class="end-pg">
 &copy; Escuela de Danza Todos los Derechos Reservados.
+</footer>
 </body>
 </html>

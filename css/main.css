@@ -140,4 +140,11 @@ header li:hover{
     background-image: url(../img/shoes_1.jpg);
     height: 400px;
 }
+.section-6 h3{
+    color: #192951;
+    font-weight: bold;
+}
+.control:focus{
+    
+}
 /*--FOOTER-------------------------------------------------------------*/

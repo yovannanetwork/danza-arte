@@ -1,3 +1,55 @@
 *{
     outline: 1px solid rgba(0,255,0,0.2);
 }
+/*--HEADER-------------------------------------------------------------*/
+header{
+    
+}
+header h1{
+    color: #0c247d;
+    text-align: center;
+    font-weight: bold;
+}
+header ul{
+    list-style: none;
+}
+header li{
+    display: inline-block;
+    padding: 10px;
+    margin: 0 40px;
+}
+header li a{
+    text-decoration: none;
+    color: #0c247d;
+}
+header li:hover{
+    background:rgba(195,198,197,0.9);
+    color: #fff;
+    transition: 500ms all;
+    text-decoration: none;
+}
+/*--SECTION-HERO-------------------------------------------------------------*/
+.hero{
+    background-image: url(../img/dance_1.jpg);
+    height: 500px;
+}
+.studio{
+    color: #c3c6c5;
+    width: 300px;
+}
+.studio p{
+    font-size: 20px;
+}
+.studio h2{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px;
+}
+
+/*--SECTION-2-------------------------------------------------------------*/
+/*--SECTION-3-------------------------------------------------------------*/
+/*--SECTION-4-------------------------------------------------------------*/
+/*--SECTION-5-------------------------------------------------------------*/
+/*--SECTION-6-------------------------------------------------------------*/
+/*--SECTION-7-------------------------------------------------------------*/

@@ -79,6 +79,7 @@ header li:hover{
     padding: 15px 40%;
     background-color: #192951;
     border-radius: 5px;
+    border: 1px solid #192951;
     color: white;
     margin-top: 20px;
 }

@@ -40,7 +40,8 @@ header li:hover{
     height: 400px;
 }
 .contactanos h3{
-    color: #192951;
+    color: #0c247d;
+    font-weight: bolder;
 }
 .contactanos input{
     width: 90%;
@@ -89,7 +90,19 @@ header li:hover{
     position: relative;
 }
 
-
+/*-----FRASES---------------------------------------------------*/
+.phrase{
+    text-align: center;
+    font-size: 33px;
+    margin: 130px 0;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 40px;
+}
+/*--------------COLOR DE TITULOS------------------*/
+h3{
+    color: #192951;
+}
 /*-----FOOTER---------------------------------------------------*/
 .end-pg {
     background-color: #192951;

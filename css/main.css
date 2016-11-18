@@ -1,37 +1,8 @@
-*{
-    outline: 1px solid rgba(0,255,0,0.2);
-}
 /*CLASS IMPORTANT*/
-.col-md-6{
+.sect3-img{
       padding: 0; !important;
 }
 /*--HEADER-------------------------------------------------------------*/
-header{
-    
-}
-header h1{
-    color: #0c247d;
-    text-align: center;
-    font-weight: bold;
-}
-header ul{
-    list-style: none;
-}
-header li{
-    display: inline-block;
-    padding: 10px;
-    margin: 0 40px;
-}
-header li a{
-    text-decoration: none;
-    color: #0c247d;
-}
-header li:hover{
-    background:rgba(195,198,197,0.9);
-    color: #fff;
-    transition: 500ms all;
-    text-decoration: none;
-}
 /*--SECTION-HERO-------------------------------------------------------------*/
 .hero{
     background-image: url(../img/dance_1.jpg);
@@ -136,15 +107,4 @@ header li:hover{
 }
 
 /*--SECTION-6-------------------------------------------------------------*/
-.sect6-img{
-    background-image: url(../img/shoes_1.jpg);
-    height: 400px;
-}
-.section-6 h3{
-    color: #192951;
-    font-weight: bold;
-}
-.control:focus{
-    
-}
 /*--FOOTER-------------------------------------------------------------*/

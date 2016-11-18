@@ -1,9 +1,6 @@
-/* Inserta tu codigo que es común para todas las páginas aqui */
-*{
-    outlin: 1px solid black;
-}
+/* -----------------------------HEADER--------------------*/
 header{
-    
+    background-color: #fff;
 }
 header h1{
     color: #0c247d;
@@ -12,6 +9,7 @@ header h1{
 }
 header ul{
     list-style: none;
+    margin: 10px;
 }
 header li{
     display: inline-block;

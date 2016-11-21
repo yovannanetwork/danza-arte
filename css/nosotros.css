@@ -1,1 +1,10 @@
 /* Inserta tu codigo aqui */
+*{
+    outline: 1px solid black;
+}
+
+/*----segunda pagina---*/
+.hero{
+    background-image: url(../img/dance_7.jpg);
+    height: 400px;
+}

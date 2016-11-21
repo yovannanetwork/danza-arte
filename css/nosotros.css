@@ -8,3 +8,8 @@
     background-image: url(../img/dance_7.jpg);
     height: 400px;
 }
+.hero .sobre-nosotros{
+    height: 200px;
+    width: 100%;
+    display: table;
+}

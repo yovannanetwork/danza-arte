@@ -1,1 +1,30 @@
 /* Inserta tu codigo que es común para todas las páginas aqui */
+*{
+    outline: 1px solid black;
+}
+header{
+    
+}
+header h1{
+    color: #0c247d;
+    text-align: center;
+    font-weight: bold;
+}
+header ul{
+    list-style: none;
+}
+header li{
+    display: inline-block;
+    padding: 10px;
+    margin: 0 40px;
+}
+header li a{
+    text-decoration: none;
+    color: #0c247d;
+}
+header li:hover{
+    background:rgba(195,198,197,0.9);
+    color: #fff;
+    transition: 500ms all;
+    text-decoration: none;
+}

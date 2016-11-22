@@ -46,11 +46,45 @@
     text-align: center;
     margin: 100px 0px 0px 0px;
 }
-.instructores img{
+.instructores .imagen{
     width: 100%;
     height: 200px;
     margin-top: 70px;
 }
+.instructores .uno{
+    background-image: url(../img/profesor_4.jpg);
+    background-size: cover;
+}
+.instructores .dos{
+    background-image: url(../img/profesor_14.jpg);
+    background-size: cover;
+}
+.instructores .tres{
+    background-image: url(../img/profesor_1.jpg);
+    background-size: cover;
+}
+.instructores .cuatro{
+    background-image: url(../img/profesor_10.jpg);
+    background-size: cover;
+}
+.instructores .cinco{
+    background-image: url(../img/profesor_11.jpg);
+    background-size: cover;
+}
+.instructores .seis{
+    background-image: url(../img/profesor_12.jpg);
+    background-size: cover;
+}
+.instructores .siete{
+    background-image: url(../img/profesor_9.jpg);
+    background-size: cover;
+}
+.instructores .ocho{
+    background-image: url(../img/profesor_15.jpg);
+    background-size: cover;
+}
+
+
 /*---------section frase------*/
 
 .frase{

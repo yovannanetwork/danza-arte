@@ -1,10 +1,8 @@
-
-/*-------------HEADER------------------------------------------------*/
 /*-------------SECTION-1------------------------------------------------*/
 .section-1{
     background-image: url(../img/textura_2.jpg);
 }
-section h2{
+.section-1 h3{
     text-align: center;
     color: #192951;
     margin: 100px 0 80px 0;
@@ -26,7 +24,6 @@ section img {
     background: #ccc;
     height: 250px;
 }
-.block-1{}
 .section-1 h4{
     font-weight: bold;
 }

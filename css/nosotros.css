@@ -69,41 +69,7 @@
 
 /*-----contactanos----*/
 
-.contactanos{
-    margin: 40px;
-}
-.contactanos input{
-    width: 90%;
-    padding: 8px 0px 8px 30px;
-    margin: 8px 0px;
-}
-.contactanos i{
-    color: black;
-    position: relative;
-    right: 490px;
-}
-.contactanos textarea{
-    padding: 8px 0px 8px 30px;
-    width: 90%;
-}
-.contactanos .cuadro-mensaje i{
-    margin: 0px;
-    position: relative;  
-}
-.contactanos button{
-    padding: 15px 40%;
-    background-color: darkblue;
-    border-radius: 5px;
-    color: white;
-}
-.contactanos .imagen{
-    background-image: url(../img/shoes_!.jpg);
-    height: 500px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    right: 0px;
-    position: absolute;
-}
+
 
 
 

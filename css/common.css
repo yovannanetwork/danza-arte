@@ -1,6 +1,6 @@
 /* Inserta tu codigo que es común para todas las páginas aqui */
 *{
-    outline: 1px solid black;
+    outlin: 1px solid black;
 }
 header{
     
@@ -35,6 +35,60 @@ header li:hover{
     border-radius: 5px;
     padding: 15px 80px;
     text-decoration: none;
+}
+/*------section contactanos--------*/
+.contactanos{
+    margin: 40px;
+    height: 400px;
+}
+.contactanos h3{
+    color: #192951;
+}
+.contactanos input{
+    width: 90%;
+    padding: 8px 0px 8px 30px;
+    margin: 8px 0px;
+    border: 2px solid darkgray;
+}
+.contactanos i{
+    color: black;
+    position: relative;
+    right: 490px;
+}
+.contactanos .cuadro-mensaje{
+    border: 2px solid darkgray;
+    width: 90%;
+    height: 120px;
+}
+.cuadro-mensaje span{
+    position: absolute;
+    right: 545px;
+    top: 180px;
+    
+}
+.contactanos textarea{
+    padding: 8px 0px 8px 30px;
+    width: 100%;
+    border: none;
+}
+.contactanos .cuadro-mensaje i{
+    margin: 0px;
+    position: relative;  
+}
+.contactanos button{
+    padding: 15px 40%;
+    background-color: #192951;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+}
+.contactanos .imagen{
+    background-image: url(../img/shoes_!.jpg);
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 0px;
+    position: absolute;
 }
 /*-----FOOTER---------------------------------------------------*/
 .end-pg {

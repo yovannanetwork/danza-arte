@@ -85,9 +85,8 @@ header li:hover{
 .contactanos .imagen{
     background-image: url(../img/shoes_!.jpg);
     height: 400px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    right: 0px;
+    background-size: cover;
+    right: 0;
     position: absolute;
 }
 /*-----FOOTER---------------------------------------------------*/

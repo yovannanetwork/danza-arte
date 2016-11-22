@@ -86,10 +86,12 @@ header li:hover{
 .contactanos .imagen{
     background-image: url(../img/shoes_!.jpg);
     height: 400px;
-    background-size: cover;
+    background-size: contain;
     right: 0;
-    position: absolute;
+    position: relative;
 }
+
+
 /*-----FOOTER---------------------------------------------------*/
 .end-pg {
     background-color: #192951;
